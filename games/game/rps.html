@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>RPS</title>
+  </head>
+  <style>
+    table {
+      width: 40%;
+    }
+    tr,
+    td,
+    th {
+      border: 1px solid black;
+    }
+  </style>
+  <body>
+    <center>
+      <button onclick="play('rock')">rock</button>
+      <button onclick="play('paper')">paper</button>
+      <button onclick="play('scissors')">scissors</button>
+      <table>
+        <tr>
+          <th>User</th>
+          <th>Computer</th>
+          <th>Win</th>
+        </tr>
+        <tr>
+          <td><p id="user"></p></td>
+          <td><p id="computer"></p></td>
+          <td><p id="status"></p></td>
+        </tr>
+      </table>
+    </center>
+  </body>
+  <script src="../js/rps.js"></script>
+</html>
